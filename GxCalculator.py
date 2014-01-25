@@ -15,6 +15,7 @@
 # along with GxCalculator. If not, see <http://www.gnu.org/licenses/>.
 
 window = self.CreateWindow(48, 0, 200, 300, 'GxCalculator')
+window.SetIcon("apps/default/GxCalculator/")
 
 vbox1 = VBox(window.top_level_container, window, [])
 window.AddWidget(vbox1)
